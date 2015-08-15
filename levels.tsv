@@ -1,13 +1,13 @@
-2
+3
 Level Number	1	2	3	4	5	6	7	8	9	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	27	28	29	30	31	32	33	34	35	36	37	38	39	40	41	42	43	44	45	46	47	48	49	50	51	52	53	54	55	56	57	58	59	60	61	62	63	64	65	66	67	68	69	70
 Type	ClearX	ReachTop	ClearX	SurviveX	ReachTop	SurviveX	ClearX	Collect	SurviveX	Totem	ReachTop	ClearX	SurviveX	ReachTop	ClearX	SurviveX	ReachTop	Collect	ReachTop	Totem	SurviveX	ClearX	Collect	ReachTop	ClearX	SurviveX	Collect	ReachTop	SurviveX	Totem	SurviveX	ReachTop	SurviveX	ClearX	ReachTop	Collect	ClearX	ReachTop	SurviveX	Totem	ReachTop	ClearX	Collect	SurviveX	ReachTop	ClearX	ReachTop	Collect	SurviveX	Totem	ReachTop	SurviveX	ClearX	Collect	ClearX	ReachTop	SurviveX	Collect	ReachTop	Totem	ClearX	SurviveX	ReachTop	Collect	SurviveX	ReachTop	ClearX	ReachTop	Totem	Endless
 PreSpawnRows		10			22						14			22			17		28					22				24				40			56			46			33				55		38				80					68			47				76			29		115		
-MinRowsOnScr																																																																						
+MinRowsOnScr																																																																		7		8	7	
 SpawnRate				3.7		3.6		5	3.4				3.4			2.8		4			2.4		4			2.2	3.2		2.2		2		2			3			1.85				2.5	1.5				2.2	1.4			1.3		2			1.25	1.8				1.1		1.7	1.05					
 TimeLimit		60	90	60	120	60	120	120	60	90	60	120	90	90	90	60	60	90	90	90	60	120	120	60	90	60	90	60	90	90	60	90	120	60	120	90	60	90	180	120	60	120	120	60	90	180	60	90	120	90	120	60	90	60	120	90	120	90	60	160	60	60	90	120	120	30	90	120	90	
 																																																																						
 CountToMatch	100		100				160					200			150							270			220									200			210					456				777							444		620						345						567			
-TotemPieces										2,7,12,17										5,10,15,20										4,10,18,26										6,14,22,29,37,45										6,14,23,32,42										10,20,30,40,50,60,70,80,90									9,18,27,36,45,54,62	
+TotemPieces										2,7,12,17										5,10,15,20										4,10,18,26										6,14,22,29,37,45										6,14,23,32,42										10,20,30,40,50,60,70,80,90									9,19,29,39,49,59,69	
 Collectables								10										11					17				14									18							28					24						18				30						44						
 																																																																						
 Background	Tutorial	Home	Home	Home	Home	Home	Home	Home	Home	Home	Mountains	Mountains	Mountains	Mountains	Mountains	Mountains	Mountains	Mountains	Mountains	Mountains	Mountains	Mountains	Mountains	Mountains	Mountains	Mountains	Mountains	Mountains	Mountains	Mountains	Desert	Desert	Desert	Desert	Desert	Desert	Desert	Desert	Desert	Desert	Desert	Desert	Desert	Desert	Desert	Desert	Desert	Desert	Desert	Desert	Iceland	Iceland	Iceland	Iceland	Iceland	Iceland	Iceland	Iceland	Iceland	Iceland	Iceland	Iceland	Iceland	Iceland	Iceland	Iceland	Iceland	Iceland	Iceland	Iceland
@@ -21,7 +21,7 @@ HorizRecurPenalty		0.5			0.5	0.5	0.8		0.5			0.5		0.5
 ^^ Defaults																																																																						
 RowsBtwnWarrior												6	6	6	6	6	6	6	6	6	6	6	6	6	6	6	6	6	6	5																																								
 RowsBtwnMage																																																			6	6	6	6	6	6	6	6	6	6	6	6	6	6	5	5	5	5	5	
-RowsBtwnPortal																															6	6	6	6	6	6	6	6	6	6	6	6	6	6	6	6	6	5	5	5																				
+RowsBtwnPortal																															6	6	6	6	6	6	6	6	6	6	6	6	6	6	6	9	6	5	5	5																				
 																																																																						
 Frozen											0.03	0.03	0.03	0.03	0.03	0.04	0.04	0.03	0.03	0.03	0.04	0.04	0.04	0.04	0.04	0.04	0.03	0.05	0.05	0.02								0.02	0.02	0.02	0.02	0.02	0.02						0.02	0.02	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.01	0.005	0.005	0.005	0.005	0.005	0.005	0.005	
 Bubble									0.05	0.05																											0.02																																	
@@ -40,8 +40,8 @@ Green
 Red																																																																						
 Yellow																																																																						
 																																																																						
-Star2Time	-1	5	10		15		15			10	5	15		10	10		5		10	10		15		5	10			5		10		10		5	15		5	10		15	5	15			10	20	5			10	15		10		15	10			5	30	5		10			3	10	15	10	
-Star3Time	-1	10	20		30		30			20	10	30		20	20		10		20	20		30		10	20			10		20		20		10	30		10	20		30	10	30			20	40	10			20	30		20		30	20			10	60	10		20			6	20	30	20	
+Star2Time	-1	5	10		15		15			10	5	15		10	10		5		10	10		15		5	10			5		10		10		5	15		5	10		15	5	15			10	20	5			10	15		10		15	10			5	30	5		10			3	5	5	5	
+Star3Time	-1	10	20		30		30			20	10	30		20	20		10		20	20		30		10	20			10		20		20		10	30		10	20		30	10	30			20	40	10			20	30		20		30	20			10	60	10		20			6	10	10	10	
 Star2Points				100		150			200				300			200					300					350			600		450		900						1500					600					1500			800					2000					1200			4000					
 Star3Points				150		200			300				450			300					400					450			700		550		1100						2000					800					2000			1000					2500					2000			6000					
 Star2MatchLess								100										100					150				140									180							300					250						200				300						400						
